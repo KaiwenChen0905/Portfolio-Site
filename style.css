@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section{
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:1080px;
+ box-sizing:border-box;
+ padding:0px;
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@keyframes blink {
+  0%{
+    width: 0em;
+
+  }
+  100%{
+    width: 6em;
+}
+}
+
+@keyframes wink {
+  from{
+    border-right-color: rgba(0,0,0,0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+p{
+  top: 40%;
+  position: relative;
+  animation: blink 2.5s steps(15),
+  wink 700ms steps(15) infinite normal,
+  disappear 9s;
+  overflow: hidden; transform: translateY(-50%);
+  width: 6em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  border-right: 2px solid rgba(0,0,0,0.75);
+}
+
+a{
+  font-size: 15px;
+  animation: appear 9s;
+  color:black;
+}
+
+body {
+  font-family: "Times";
+  font-weight: bold;
+  background-color: snow;
+  color: Black;
+  text-align: center;
+  font-size: 30px;
+}
+
+span {
+  font-family: "futura";
+  color: Black;
+  text-align: center;
+  font-size: 12px;
+}
