@@ -1,0 +1,332 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  animation: appear 2s;
+}
+
+body {
+  min-height: 100vh;
+  background: white
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-style: italic;
+  font-size: 55px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color:snow;
+  margin-top: 5%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
+/* square */
+ .square{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
+/* 1 */
+.square span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 6s linear infinite;
+}
+
+.square:hover span:nth-child(1){
+  border: none;
+  background: crimson;
+  opacity: 0.8;
+}
+
+/* 2 */
+.square span:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+
+.square:hover span:nth-child(2){
+  border: none;
+  background: red;
+  opacity: 0.8;
+}
+
+/* 3 */
+.square span:nth-child(3){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 10s linear infinite;
+}
+
+.square:hover span:nth-child(3){
+  border: none;
+  background: maroon;
+  opacity: 0.8;
+}
+
+/* 4 */
+.square span:nth-child(4){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 8s linear infinite;
+}
+
+.square:hover span:nth-child(4){
+  border: none;
+  background: firebrick;
+  opacity: 0.7;
+}
+
+.square .content h2{
+  color: firebrick;
+}
+
+.square .content a{
+  color: firebrick;
+  border: 2px solid white;
+}
+
+.square:hover .content h2 {
+  color: white;
+}
+
+.square:hover .content p {
+  color: white;
+}
+
+.square:hover .content a {
+  color: white;
+}
+
+
+
+/* square 2 */
+.square2{
+ position: relative;
+ width: 500px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* 1 */
+.square2 span:nth-child(1){
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 2px solid black;
+ border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+ transition: 0.5s;
+ animation: animate2 6s linear infinite;
+}
+
+.square2:hover span:nth-child(1){
+ border: none;
+ background: lightgreen;
+ opacity: 0.8;
+}
+
+/* 2 */
+.square2 span:nth-child(2){
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 2px solid black;
+ border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+ transition: 0.5s;
+ animation: animate 4s linear infinite;
+}
+
+.square2:hover span:nth-child(2){
+ border: none;
+ background: darkseagreen;
+ opacity: 0.8;
+}
+
+/* 3 */
+.square2 span:nth-child(3){
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 2px solid black;
+ border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+ transition: 0.5s;
+ animation: animate2 10s linear infinite;
+}
+
+.square2:hover span:nth-child(3){
+ border: none;
+ background: seagreen;
+ opacity: 0.8;
+}
+
+/* 4 */
+.square2 span:nth-child(4){
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 2px solid black;
+ border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+ transition: 0.5s;
+ animation: animate 8s linear infinite;
+}
+
+.square2:hover span:nth-child(4){
+ border: none;
+ background: mediumseagreen;
+ opacity: 0.8;
+}
+
+.square2 .content h2{
+  color: mediumseagreen;
+}
+
+.square2 .content a{
+  color: mediumseagreen;
+  border: 2px solid white;
+}
+
+.square2:hover .content h2 {
+  color: white
+}
+
+.square2:hover .content p {
+  color: white
+}
+
+.square2:hover .content a {
+  color: white
+}
+
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  100{
+    opacity: 1;
+  }
+
+}
+
+.content{
+  position: relative;
+  padding: 40px 60px;
+  color: black;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1000;
+  width: 80%;
+}
+
+.content p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content h2{
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content a{
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 6px 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+
+.content a:hover{
+  background: black;
+  color: white;
+}
