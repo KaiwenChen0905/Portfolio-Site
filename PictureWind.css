@@ -21,6 +21,16 @@ body {
 
 }
 
+a{
+  width: 70%;
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+
 p{
   width: 70%;
   margin-left: 15%;
